@@ -1,17 +1,23 @@
 import React, { Component, Fragment } from "react";
-import Contact from "../components/Contact";
+// import Contact from "../components/Contact";
+import InfoBox from "../components/InfoBox";
 import "../assets/style/style.css"
 
 class Index extends Component {
+
+
     render() {
         return(
             <Fragment>
-                <h1>
-                    Patrick Gonzalez
-                </h1>
-                <a href="/Work">Work</a>
-                <a href="/Resume">Resume</a>
-                <Contact />
+                <div className="container">
+                    <div className="row">
+                        <div className="col l3"></div>
+                        <div className="col l6">
+                             <InfoBox />
+                        </div>
+                        <div className="col l3"></div>
+                    </div>
+                </div>
             </Fragment>
         );
     }
