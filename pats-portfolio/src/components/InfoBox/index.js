@@ -13,7 +13,7 @@ class InfoBox extends Component {
                     <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">Patrick Gonzalez<i className="material-icons right">. . .</i></span>
                         <p><a href="/Work">Work</a></p>
-                        <p><a href="/Contact">Contact</a></p>
+                        {/* <p><a href="/Contact">Contact</a></p> */}
                     </div>
                     <div className="card-reveal">
                         <span className="card-title grey-text text-darken-4">Patrick is a<i className="material-icons right">close</i></span>
